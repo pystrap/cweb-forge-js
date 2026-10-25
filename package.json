@@ -1,0 +1,16 @@
+{
+  "name": "@cweb/forge",
+  "version": "0.1.0",
+  "description": "JavaScript and TypeScript client for cWeb Forge",
+  "type": "module",
+  "main": "./src/index.js",
+  "types": "./src/index.d.ts",
+  "exports": { ".": { "types": "./src/index.d.ts", "import": "./src/index.js" } },
+  "files": ["src", "README.md", "LICENSE"],
+  "engines": { "node": ">=20" },
+  "scripts": { "test": "node --test test/*.test.js", "prepublishOnly": "npm test" },
+  "dependencies": { "keycloak-js": "^26.2.0" },
+  "publishConfig": { "access": "public" },
+  "license": "MIT",
+  "homepage": "https://cweb.app/docs/forge/javascript"
+}
