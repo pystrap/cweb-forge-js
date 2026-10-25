@@ -1,7 +1,7 @@
 {
   "name": "@cweb/forge",
   "version": "0.1.0",
-  "description": "JavaScript and TypeScript client for cWeb Forge",
+  "description": "JavaScript and TypeScript SDK for cWeb Forge serverless data and authentication",
   "type": "module",
   "main": "./src/index.js",
   "types": "./src/index.d.ts",
@@ -12,5 +12,9 @@
   "dependencies": { "keycloak-js": "^26.2.0" },
   "publishConfig": { "access": "public" },
   "license": "MIT",
-  "homepage": "https://cweb.app/docs/forge/javascript"
+  "author": "PyStrap",
+  "repository": { "type": "git", "url": "git+https://github.com/pystrap/cweb-forge-js.git" },
+  "bugs": { "url": "https://github.com/pystrap/cweb-forge-js/issues" },
+  "homepage": "https://github.com/pystrap/cweb-forge-js#readme",
+  "keywords": ["cweb", "forge", "serverless", "database", "authentication", "typescript", "sdk"]
 }
