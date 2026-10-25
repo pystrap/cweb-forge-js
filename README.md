@@ -21,17 +21,17 @@ host. This is the official JavaScript and TypeScript SDK for
 Requires a modern browser or Node.js 20+. The package uses ES modules; browser
 projects should use an ES-module-aware build tool such as Vite.
 
-The first npm release is being prepared. Until it is available, clone this
-repository and install it into your application using its local path:
-
-```sh
-npm install --install-links ../cweb-forge-js
-```
-
-Once published, install from npm:
+Install from npm:
 
 ```sh
 npm install @cweb-app/forge
+```
+
+For local development, clone this repository and install it into your application
+using its local path:
+
+```sh
+npm install --install-links ../cweb-forge-js
 ```
 
 ## Getting started
