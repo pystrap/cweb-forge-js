@@ -5,7 +5,7 @@
 Build browser applications with user sign-in and JSON collections, or access
 Forge from your Node.js backend. Your application can run on cWeb or any other
 host. This is the official JavaScript and TypeScript SDK for
-[cWeb Forge](https://cweb.app).
+[cWeb Forge](https://cweb.app/forge).
 
 - Browser sign-in, sign-up and sign-out using OpenID Connect with PKCE.
 - Create, read, update and delete documents with collection access rules.
@@ -13,6 +13,7 @@ host. This is the official JavaScript and TypeScript SDK for
 - Version checks for concurrent edits and idempotency keys for create retries.
 - TypeScript declarations, request cancellation and configurable timeouts.
 
+[Documentation](https://cweb.app/docs/forge/) · [Full JavaScript guide](https://cweb.app/docs/forge/javascript) ·
 [Getting started](#getting-started) · [Authentication](#authentication) ·
 [Working with documents](#working-with-documents) · [Contributing](#contributing)
 
