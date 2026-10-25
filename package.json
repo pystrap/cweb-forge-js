@@ -1,5 +1,5 @@
 {
-  "name": "@cweb/forge",
+  "name": "@cweb-app/forge",
   "version": "0.1.0",
   "description": "JavaScript and TypeScript SDK for cWeb Forge serverless data and authentication",
   "type": "module",

@@ -31,7 +31,7 @@ npm install --install-links ../cweb-forge-js
 Once published, install from npm:
 
 ```sh
-npm install @cweb/forge
+npm install @cweb-app/forge
 ```
 
 ## Getting started
@@ -59,7 +59,7 @@ same promise throughout your application:
 
 ```js
 // forge.js — load this module only in the browser, including /auth/callback.
-import { ForgeClient, createForgeAuth } from '@cweb/forge';
+import { ForgeClient, createForgeAuth } from '@cweb-app/forge';
 
 const endpoint = 'https://my-app.forge.cweb.app/v1/';
 
@@ -104,7 +104,7 @@ Set a collection's read policy to **Anyone (public)** in **Collections & rules**
 then omit `token` entirely. Register the frontend origin for browser requests.
 
 ```js
-import { ForgeClient } from '@cweb/forge';
+import { ForgeClient } from '@cweb-app/forge';
 
 const forge = new ForgeClient({
   endpoint: 'https://my-app.forge.cweb.app/v1/',
@@ -126,7 +126,7 @@ Create a service key with only the collection permissions your backend needs.
 Supply it through your server's environment or secret manager:
 
 ```js
-import { ForgeClient } from '@cweb/forge';
+import { ForgeClient } from '@cweb-app/forge';
 
 if (!process.env.CWEB_FORGE_KEY) throw new Error('CWEB_FORGE_KEY is required');
 const forge = new ForgeClient({
@@ -195,7 +195,7 @@ the entire collection.
 ### TypeScript
 
 ```ts
-import { ForgeClient } from '@cweb/forge';
+import { ForgeClient } from '@cweb-app/forge';
 
 type Product = { name: string; price: number };
 const forge = new ForgeClient({ endpoint: 'https://my-app.forge.cweb.app/v1/' });
